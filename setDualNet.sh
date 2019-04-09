@@ -1,9 +1,10 @@
 #!/system/bin
-#Name: setTunaDualNet
-#Author: Howard Xue, 2017/6/12
+#Name: setDualNet
+#Author: Howie Xue, 2017/6/12
 #Function: Auto set static IP for wlan/ethernet, which dynamically assigned from dhcp,and add default gateway
 #Param in: default gateway that can access internet, if not enter, this value will be *.*.*.1 of wlan ip 
 #Notice: make sure that wlan has not reonnect, we recommend that script is only execute 1 time when network environment changed.
+
 function CheckWlanEthInitialStatus()
 {
 	if route|grep wlan >/dev/null && route|grep eth >/dev/null;
