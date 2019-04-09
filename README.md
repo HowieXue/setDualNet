@@ -1,5 +1,5 @@
 
-Android/Linux Shell 脚本：自动获取DHCP 动态IP并配置为静态IP
+Android/Linux Shell 脚本：自动获取Wlan/EtherNet DHCP分配的动态IP，然后配置为静态IP并添加默认网关, 最后测试两个网络的联网状态
 
 
 
